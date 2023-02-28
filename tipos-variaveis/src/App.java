@@ -56,5 +56,29 @@ public class App {
           String resultado = a==b ? "verdadeiro" : "falso"; //operador ternário. A primeira operação sempre é boolean
                                     //(depende do tipo, se for int, tem que ser números, se for string tem que ser palavras)
           System.out.println(resultado);
+
+          /*
+           Operadores 
+
+           (==) igual
+           (!=) diferente de
+           (>) maior que 
+           (<) menor que 
+
+           O método .equals() compara contéudo, por exemplo:
+
+           String nome1 = "Kauan";
+           String nome2 = new String("Kauan");
+
+           System.out.println(nome1 == nome2); Aqui o resultado seria false, pois aqui compara os objetos e não o conteúdo, agora se usarmos
+           System.out.println(nome1.equals(nome2)); Aqui o resultado seria true, pois compara o CONTEÚDO dos objetos!
+
+           Operadores lógicos
+
+           (&&) significa E
+           (||) significa OU
+
+
+           */
     }
 }
