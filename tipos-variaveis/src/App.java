@@ -78,7 +78,89 @@ public class App {
            (&&) significa E
            (||) significa OU
 
+           Alguns exemplos
+
+           if (nome1 == nome1 || nome2 == nome2){
+            System.out.println("Isso aqui retorna verdadeiro pois uma das duas expressões são verdadeiras. Geralmente ele verifica a primeira")
+
+           }
+
+           if (nome1 == nome1 && nome2 == nome2){
+             System.out.println("Isso aqui retorna verdadeiro pois ambas expressões são verdadeiras.")
+             
+           }
+
+           if (nome1 == nome2 || nome2 == nome1){
+            System.out.println("Isso aqui retorna false pois nenhuma das duas expressões são verdadeiras!")
+
+           }
+
 
            */
+
+           /*
+            Critérios de criações de métodos
+
+            O nome do método deverá ser em um verbo (acelerar, correr, etc)
+            Seguir o padrão camelCase (todas letras minusculas com excessão da primeira letra da segunda palavra)
+
+            Critérios de definição de métodos
+
+            Qual a proposta do método? 
+            Qual o tipo de retorno esperado após executar o método ? Caso o métoodo não retorne nenhum valor, ele será representado pela palavra chave void 
+            Quais parametros são necessários para execução? As vezes os métodos vão precisar de parametros para execução!
+            Qual a visibilidade do método? É necessário que o método seja visivel pra toda aplicação? Somente na classe? Através de herança ou somente em pacotes?
+
+            Alguns exemplos:
+
+            */
+
     }
+
+    public double somar(int n1, int n2){
+
+        // Lógica -- Finalidade do método
+
+        return n1 + n2; //retorno
+    }
+
+    public void imprimir (String texto){
+        /*
+         LÓGICA -- FINALIDADE DO MÉTODO
+         NÃO PRECISA DE RETURN POIS NÃO IRÁ RETORNAR NADA (não retorna nada pois é um método void)
+         */
+    }
+
+    //Throws Exception : Indica que o método utilizado poderá gerar uma exception
+
+    public void dividir(int dividendo, int divisor) throws Exception {
+
+    }
+
+    private void metodoPrivado(){
+        //método visivel somente nessa clase
+    }
+
+    /*
+     Equivocos estruturais 
+     */
+
+     public void validar(){
+        //esse método deveria ter algum retorno booleano, true ou false
+
+     }
+
+     public void gravarCliente(String nome, Integer idade){
+        /*
+         Esse método tem a finalidade de gravar informações de um cliente
+         mas porque não criamos um objeto Cliente e passamos como parametro?
+
+         Exemplo:
+
+         */
+     }
+
+     public void gravar(Cliente cliente){
+        
+     }
 }
