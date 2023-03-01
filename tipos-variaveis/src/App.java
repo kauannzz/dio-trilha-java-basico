@@ -161,6 +161,48 @@ public class App {
      }
 
      public void gravar(Cliente cliente){
-        
+
      }
+
+     /*
+      Palavras reservadas 
+
+      Existem 52 palavras reservadas na linguagem Java
+
+      Tipos primitivos
+      Classificações
+      Escopos de uso (onde posso usar)
+      Palavras "opostas" (sentido oposto de usabilidade)
+
+      Todas são escritas em letras minusculas! 
+
+      Controle de pacotes:
+
+      import: importa pacote ou classes
+      package: especifica a que pacote todas classes de arquivo pertencem
+
+      Modificadores de acesso:
+
+      public: acesso de qualquer classe
+      private: acesso apenas dentro da classe
+      protected: acesso por classes no mesmo pacote ou subclasses
+
+      Primitivos:
+
+      boolean: um valor indicando verdadeiro ou falso
+      byte: um inteiro de 8 bits (signed)
+      char: um character unicode (16 bit unsigned)
+      double: um numero de ponto flutuante de 64 bits
+      int: um numero inteiro de 32 bits
+      long: um numero inteiro de 64 bits
+      short: um numero inteiro de 32 bits
+      void: indica que o método nao tem um retorno de valor
+
+      Modificadores de classes, variáveis ou métodos
+
+      abstract: classe que nao pode ser instanciada ou método que precisa ser implementado por uma subclasse não abstrata
+      class: especifica uma classe
+      extends: indica a superclasse que a subclasse está entendendo
+      final: impossibilita que uma classe seja estendida, que um método seja sobreescrito ou que uma variavel seja reinicializada
+      */
 }
